@@ -1,0 +1,169 @@
+body{
+    background-color: #f6f2cf;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.vase{
+    text-align: center;
+}
+
+.vase img{
+    max-width: fit-content;
+    border: 10px solid pink;
+    border-radius: 5%;
+}
+article{
+    max-width: auto;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    display: flex;
+}
+
+.index div{
+    margin: 0;
+    padding: 10px;
+} 
+.index h1{
+    font-style: italic;
+    font-family:cursive;
+    text-align: center;
+}
+.article p{
+    background-color: #ffe2e2;
+} 
+
+.picture img{
+    margin: 0;
+    padding: 0;
+    border: 8px solid #ffe2e2;
+    display: block;
+}
+
+.navigation{
+    font-size: large;
+    font-family:fantasy, sans-serif;
+    margin:auto;
+    text-align: center;
+    padding: 10px, 0px;
+    list-style-type: none;
+    display:flex; 
+    gap:30px;
+    background-color: #86a788;
+}
+
+.navigation a{
+    text-align: center;
+    text-decoration: none;
+}
+
+a{
+    color: black;
+}
+a:hover{
+    color: #fffdec;
+}
+a:active{
+    color: #ffcfcf;
+}
+
+.form-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 100px;
+   max-width: 500px;
+}
+form.form-example {
+    display: table;
+}
+div.form-example{
+    display: table-row;
+}
+label, input{
+    display: table-cell;
+    margin: 10px;
+}
+label{
+    font-family: fantasy;
+    padding: 10px;
+}
+
+#h4{
+    text-align: center;
+}
+
+.h1_contactform{
+    text-align: center; 
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: #86a788;
+    position: relative;
+    padding: 10px;
+    width: 100%;
+    top: 0%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: #86a788;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.fieldset{
+    text-align: center;
+}
+
+.Bouquets img{
+    border: 7px solid pink ;
+    margin: 5px;
+    margin-left: 15px;
+    border-style: ridge;
+    object-fit: contain;
+    display: -ms-inline-flexbox;
+    gap: 20px;
+    border-radius: 5px;
+}
+
+.Bouquets h1{
+    color: #86a788;
+    text-align: center;
+    text-decoration: underline;
+    font-family: cursive;
+    text-decoration-color: #ffcfcf;
+}
+
+.gallery{
+    margin: auto;
+    margin-bottom: 120px;
+}
+
+.cv{
+    text-align: justify;
+    margin: 80px;
+    margin-top: auto;
+}
+hr{
+    background-color: #ffcfcf;
+    border-color: #ffcfcf;
+    height: 2px;
+}
+.cv li{
+    list-style-type: square;
+}
+
+
