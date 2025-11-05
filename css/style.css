@@ -165,5 +165,7 @@ hr{
 .cv li{
     list-style-type: square;
 }
-
+.form{
+    display: flex;
+}
 
